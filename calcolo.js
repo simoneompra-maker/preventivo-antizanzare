@@ -12,7 +12,7 @@
 export const REGOLE = {
   passoRaffrescamento: 1.5, // m fra un ugello e l'altro sul raffrescamento
   tuboCollegamento: 10, // m di tubo per arrivare dalla centralina al perimetro
-  installazione: { fisso: 250, perUgello: 35 }, // installazione e collaudo
+  installazione: { fisso: 250, perUgello: 30 }, // installazione e collaudo (30 €/ugello dal 04/10/2026)
   forbice: 0.1, // ±10%: accessori e imprevisti non conteggiati
   // Zanzero DUAL a 2 uscite distinte: 350 € IVA inclusa, senza codice
   sovrapprezzoDual2Uscite: 286.89,

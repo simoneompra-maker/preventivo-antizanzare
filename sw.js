@@ -1,7 +1,7 @@
 /* Preventivo Rapido — service worker.
    Tutti i file dell'app (libreria Supabase compresa) in cache: l'app si apre anche senza rete.
    Le chiamate a Supabase (dati e login) passano sempre dalla rete. */
-const CACHE = 'pr-antizanzare-v1';
+const CACHE = 'pr-antizanzare-v2';
 const FILES = ['./', 'index.html', 'calcolo.js', 'supabase.min.js', 'catalogo-riserva.json', 'manifest.json',
   'icon.svg', 'icon-192.png', 'icon-512.png'];
 
